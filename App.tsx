@@ -1,9 +1,7 @@
 import React from "react";
-import {Text, View} from 'react-native';
 import AppLoading from 'expo-app-loading';
 
-import { UserIdentification } from "./src/pages/UserIdentification";
-import { Confirmation } from "./src/pages/Confirmation";
+import Routes from "./src/routes/index";
 
 import {
   useFonts,
@@ -20,6 +18,8 @@ export default function App() {
   if(!fontsLoaded) return <AppLoading />
 
   return (
-    <Confirmation />
+    <Routes />
   );
 }
+
+// 01:21:00

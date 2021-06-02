@@ -94,5 +94,3 @@ const styles = StyleSheet.create({
     color: colors.white
   },
 });
-
-// 22:16
